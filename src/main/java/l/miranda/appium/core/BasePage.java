@@ -78,12 +78,12 @@ public class BasePage {
 	
 	public void swipeLeft()
 	{
-		scroll(0.1, 0.9);
+		swipe(0.1, 0.9);
 	}
 	
 	public void swipeRight()
 	{
-		scroll(0.9, 0.1);
+		swipe(0.9, 0.1);
 	}
 	
 	public void scroll(double inicio, double fim)
